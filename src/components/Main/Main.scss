@@ -1,0 +1,41 @@
+@import '/src/sassStyles/typography';
+@import '/src/sassStyles/mixins';
+
+.selected-finishes {
+    flex: 0 50%;
+    background-color: $light-grey;
+    min-width: 400px;
+    padding: 2.5em 0 3em;
+
+    .overview {
+        margin-bottom: 2.5em;
+
+        .overview__main-title {
+            @extend .title;
+            @extend .title--lg;
+            margin-bottom: 0.15625em;
+        }
+
+        .overview__item {
+            @extend .title;
+
+            .overview__title, .overview__price{
+                display: inline-block;
+            }
+
+            .overview__title{
+                @extend .title--sm;
+            }
+            .overview__price{
+                @extend .title--md;
+                margin-left: 2px;
+            }
+            
+        }
+    }
+}
+
+.webgl-config{
+    width: 70%;
+    background-color: beige;
+}

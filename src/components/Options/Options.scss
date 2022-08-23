@@ -1,0 +1,18 @@
+@import './src/sassStyles/variables';
+@import '/src/sassStyles/typography';
+
+.options{
+    width: 100%;
+    margin-bottom: 8.125rem;
+    
+    &:last-of-type{
+        margin-bottom: 5.625rem;
+    }
+
+    &__title{
+        @extend .title;
+        @extend .title--lg;
+        margin-bottom: 0.75em;
+    }
+}
+

@@ -1,0 +1,24 @@
+@import '/src/sassStyles/variables';
+
+.button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.9375em 4.6875em;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
+.btn--dark{
+    color: $white;
+    background-image: linear-gradient(to right, #1389ad, #18789c, #1b678a, #1b5778, #1a4766);
+}

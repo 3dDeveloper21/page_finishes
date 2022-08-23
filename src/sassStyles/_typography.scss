@@ -1,0 +1,32 @@
+@import './variables';
+@import './mixins';
+
+.title{
+    font-family: $josefin;
+}
+
+.title--lg{
+    @include fluid-font(320px, 1024px, 16px, 32px);
+    // font-size: 2rem;
+}
+
+.title--md{
+    @include fluid-font(320px, 1024px, 16px, 24px);
+    font-size: 1.5rem;
+}
+
+.title--sm{
+    @include fluid-font(320px, 1024px, 16px, 20px);
+    // font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.title--xs{
+    @include fluid-font(320px, 1024px, 13px, 14px);
+    // font-size: 0.875rem;
+    font-weight: 300;
+}
+
+p{
+    line-height: 1.6;
+}

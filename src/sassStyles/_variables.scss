@@ -1,0 +1,27 @@
+@import './font-faces';
+ 
+
+//-------- Fonts --------//
+$josefin: 'Josefin Sans', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+
+
+//-------- Colors --------//
+$white: #FFFFFF;
+$light-grey: #F6F6F6;
+$lighter-grey: #F7F7F7;
+
+
+//-------- Breakpoints --------//
+$breakpoints:  (
+  "xs": 25em, // 400px
+  "sm": 34em, // 544px
+  "md": 48em, // 768px
+  "lg": 60em, // 960px
+  "xl": 80em, // 1280px
+  "xxl": 90em // 1440px
+);
+
+
+
+ 
